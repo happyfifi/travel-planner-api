@@ -13,11 +13,3 @@ function sendResponse(res, statusCode, message, data = {}) {
 
 module.exports = { sendResponse };
     
-//     res.status(statusCode).json({
-//         status: statusCode === 201 && statusCode <300 ? 'success' : 'error',
-//         message,
-//         ...data
-//     });
-// }
-
-// module.exports = { sendResponse };

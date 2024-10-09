@@ -1,14 +1,4 @@
-// const { sql } = require('../config/database');
 
-// async function insertTrip(customerID, dateTravelling, country, languageSpoken, numberOfTravellers, knowsLanguage) {
-//     await sql.query`
-//     INSERT INTO TripDetails (CustomerID, DateTravelling, Country, LanguageSpoken, NumberOfTravelers, KnowsLanguage, IsCompleted)
-//                 VALUES (@customerId, @dateTravelling, @country, @languageSpoken, @numberOfTravelers, @knowsLanguage, 0)
-//             `;
-
-// }
-
-// module.exports = { insertTrip };
 
 const { sql } = require('../config/database');
  

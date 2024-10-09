@@ -1,25 +1,3 @@
-// const { sql } = require('../config/database');
-
-// async function insertOrUpdateCustomer(customerName, email, phoneNumber) {
-//     const result = await sql.query`
-
-//     MERGE INTO CustomerDetails AS target
-//     USING (SELECT @name AS Name, @email AS Email, @phone AS PhoneNumber) AS source
-//     ON target.Email = source.Email
-//     WHEN MATCHED THEN
-//         UPDATE SET Name = source.Name, PhoneNumber = source.PhoneNumber
-//     WHEN NOT MATCHED THEN
-//         INSERT (Name, Email, PhoneNumber)
-//         VALUES (source.Name, source.Email, source.PhoneNumber);
-//     SELECT CustomerID FROM CustomerDetails WHERE Email = @email;
-
-//     `;
-//     return result.recordset[0].CustomerID;
-// }
-
-// module.exports = { insertOrUpdateCustomer };
-
-
 
 const { sql } = require('../config/database');
  
